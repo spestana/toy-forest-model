@@ -16,7 +16,11 @@ A **forest, snow, remote sensing, python, art project for fun** and to help visu
 
 Black and while photos of the forest model from various angles.
 
+As the view angle increases, we see more of the sides of the trees which in turn block our the lighter snow surface. This decreases the mean and median brightness value that the camera sees.
+
 <img src="histograms.png" />
+
+But why is there an apparent peak around ~10 degrees from nadir? It is likely due to the incoming angle of ambient lighting casting longer shadows when I held the model at "nadir" than the shadows (or lack of shadows) when held at ~10 degrees. This was not a rigorous experiment. 
 
 <img src="viewangles.png" />
 
